@@ -22,5 +22,13 @@ This project is being built to practice HTML and CSS skills by creating a modern
 - CSS3 (Vanilla)
 - Google Fonts (Roboto Condensed)
 
+### Upcoming Features
+- Desktop responsive layout
+- Video player page
+- User profile page
+- Downloads section
+- Dedicated Movie and TV Show pages
+- And more!
+
 ## Status
 🚧 **Work In Progress**: This project is solely for learning purposes. Features, interactions, and styles are actively being developed and refined.
