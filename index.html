@@ -1,320 +1,196 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PG Stream</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Karla:ital,wght@0,200..800;1,200..800&family=Manrope:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <nav>
-      <div class="logo">
-        <h1 class="title">PG stream</h1>
-      </div>
-      <div class="search">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          x="0px"
-          y="0px"
-          width="35"
-          height="35"
-          viewBox="0,0,256,256"
-        >
-          <g
-            fill="#ffffff"
-            fill-rule="nonzero"
-            stroke="none"
-            stroke-width="1"
-            stroke-linecap="butt"
-            stroke-linejoin="miter"
-            stroke-miterlimit="10"
-            stroke-dasharray=""
-            stroke-dashoffset="0"
-            font-family="none"
-            font-weight="none"
-            font-size="none"
-            text-anchor="none"
-            style="mix-blend-mode: normal"
-          >
-            <g transform="scale(5.12,5.12)">
-              <path
-                d="M21,3c-9.39844,0 -17,7.60156 -17,17c0,9.39844 7.60156,17 17,17c3.35547,0 6.46094,-0.98437 9.09375,-2.65625l12.28125,12.28125l4.25,-4.25l-12.125,-12.09375c2.17969,-2.85937 3.5,-6.40234 3.5,-10.28125c0,-9.39844 -7.60156,-17 -17,-17zM21,7c7.19922,0 13,5.80078 13,13c0,7.19922 -5.80078,13 -13,13c-7.19922,0 -13,-5.80078 -13,-13c0,-7.19922 5.80078,-13 13,-13z"
-              ></path>
-            </g>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PG Stream</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Karla:ital,wght@0,200..800;1,200..800&family=Manrope:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <h1 class="title">PG stream</h1>
+    </div>
+    <div class="search">
+      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35" viewBox="0,0,256,256">
+        <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+          stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none"
+          font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+          <g transform="scale(5.12,5.12)">
+            <path
+              d="M21,3c-9.39844,0 -17,7.60156 -17,17c0,9.39844 7.60156,17 17,17c3.35547,0 6.46094,-0.98437 9.09375,-2.65625l12.28125,12.28125l4.25,-4.25l-12.125,-12.09375c2.17969,-2.85937 3.5,-6.40234 3.5,-10.28125c0,-9.39844 -7.60156,-17 -17,-17zM21,7c7.19922,0 13,5.80078 13,13c0,7.19922 -5.80078,13 -13,13c-7.19922,0 -13,-5.80078 -13,-13c0,-7.19922 5.80078,-13 13,-13z">
+            </path>
           </g>
-        </svg>
+        </g>
+      </svg>
+    </div>
+  </nav>
+  <main>
+    <header>
+      <div class="Tabs">
+        <button>All</button>
+        <button>Movies</button>
+        <button>TV Shows</button>
       </div>
-    </nav>
-    <main>
-      <header>
-        <div class="Tabs">
-          <button>All</button>
-          <button>Movies</button>
-          <button>TV Shows</button>
+    </header>
+    <section class="show">
+      <img src="https://www.deccanchronicle.com/h-upload/2026/06/19/2053569-spider-man-brand-new-day.webp" alt=""
+        width="100%" height="100%" />
+      <div class="BTNS">
+        <div class="buttns">
+          <button>watch now</button>
+          <button class="wl-btn">watch leter</button>
         </div>
-      </header>
-      <section class="show">
-        <img
-          src="https://www.deccanchronicle.com/h-upload/2026/06/19/2053569-spider-man-brand-new-day.webp"
-          alt=""
-          width="100%"
-          height="100%"
-        />
-        <div class="BTNS">
-          <div class="buttns">
-            <button>watch now</button>
-            <button class="wl-btn">watch leter</button>
-          </div>
-          <p>IMDB: 8.6</p>
+        <p>IMDB: 8.6</p>
+      </div>
+    </section>
+    <section class="latest-sec">
+      <h3>latest</h3>
+      <div class="lts-card-grp">
+        <div class="crd">
+          <img src="https://www.deccanchronicle.com/h-upload/2026/06/19/2053569-spider-man-brand-new-day.webp" alt=""
+            width="100%" height="100%" />
         </div>
-      </section>
-      <section class="latest-sec">
-        <h3>latest</h3>
-        <div class="lts-card-grp">
-          <div class="crd">
-            <img
-              src="https://www.deccanchronicle.com/h-upload/2026/06/19/2053569-spider-man-brand-new-day.webp"
-              alt=""
-              width="100%"
-              height="100%"
-            />
-          </div>
-          <div class="crd">
-            <img
-              src="https://images.news18.com/ibnlive/uploads/2020/07/1604654831_ganpath-first-look.jpg"
-              alt=""
-              height="100%"
-              width="100%"
-            />
-          </div>
-          <div class="crd">
-            <img
-              src="https://akm-img-a-in.tosshub.com/indiatoday/images/bodyeditor/201805/shamshera-647x677.jpg?FwUZgE.GTiJ2B0VIr8BKPbOOE4uJyF6w"
-              alt=""
-              width="100%"
-              height="100%"
-            />
-          </div>
-          <div class="crd">
-            <img
-              src="https://images.indianexpress.com/2024/01/goat-01012024.jpg?w=1200"
-              alt=""
-              width="100%"
-              height="100%"
-            />
-          </div>
+        <div class="crd">
+          <img src="https://images.news18.com/ibnlive/uploads/2020/07/1604654831_ganpath-first-look.jpg" alt=""
+            height="100%" width="100%" />
         </div>
-      </section>
-      <section class="recom">
-        <h3>recommendations</h3>
-        <div class="recom-cd-grp">
-          <div class="crd">
-            <img
-              src="https://i.ytimg.com/vi/QflfPttxclE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDAIf_PMwtdvNr9vJ70ivkmAS_YAA"
-              alt=""
-              width="100%"
-              height="100%"
-            />
-          </div>
-          <div class="crd">
-            <img
-              src="https://cdn1.edgedatg.com/aws/v2/abc/ABCUpdates/blog/4706970/400cd0eeae9e3ae855556002cb8706f0/1600x900-Q90_400cd0eeae9e3ae855556002cb8706f0.jpg"
-              alt=""
-              height="100%"
-              width="100%"
-            />
-          </div>
-          <div class="crd">
-            <img
-              src="https://images.mid-day.com/images/images/2026/jun/alphaposter-1781706828144_d.png"
-              alt=""
-              width="100%"
-            />
-          </div>
-          <div class="crd">
-            <img
-              src="https://img.youtube.com/vi/eRMXfu_eJb8/0.jpg"
-              alt=""
-              width="100%"
-              height="90  "
-            />
-          </div>
+        <div class="crd">
+          <img
+            src="https://akm-img-a-in.tosshub.com/indiatoday/images/bodyeditor/201805/shamshera-647x677.jpg?FwUZgE.GTiJ2B0VIr8BKPbOOE4uJyF6w"
+            alt="" width="100%" height="100%" />
         </div>
-      </section>
-      <section class="movie-sec">
-        <h3>movies</h3>
-        <div class="movie-cd-grp">
-          <div class="crd">
-            <img
-              src="https://www.deccanchronicle.com/h-upload/2026/06/19/2053569-spider-man-brand-new-day.webp"
-              alt=""
-              width="100%"
-              height="100%"
-            />
-          </div>
-          <div class="crd">
-            <img
-              src="https://cdn.bongo-solutions.com/919f93a7-400e-4149-a70d-204beb589074/content/875287da-9879-4c98-a80e-e45844af2f6a/b8a75a84-db9c-410c-b144-6fac455faa8b.jpg?width=600"
-              alt=""
-              width="100%"
-              height="100%"
-            />
-          </div>
-          <div class="crd">
-            <img
-              src="https://www.thescarboroughnews.co.uk/webimg/b25lY21zOmZmNTI4ZjBkLTlmZjUtNGUyMS05ZTJkLTZjZGQ1ZWZmZGE0OTo4NTA3OWQxNS0zN2JiLTQ5ODYtYmVjMi1lMTI5YWI4NTNkOWE=.jpg?crop=3:2,smart&trim=&width=640&quality=65"
-              alt=""
-              width="100%"
-              height="100%"
-            />
-          </div>
-          <div class="crd">
-            <img
-              src="https://cdn.bongo-solutions.com/919f93a7-400e-4149-a70d-204beb589074/content/4d1b49d8-9088-4b94-ad0c-ca06e64e86de/2d844801-534f-459f-9b6c-b29edd11fe8e.jpg?width=600"
-              alt=""
-              width="100%"
-              height="100%"
-            />
-          </div>
+        <div class="crd">
+          <img src="https://images.indianexpress.com/2024/01/goat-01012024.jpg?w=1200" alt="" width="100%"
+            height="100%" />
         </div>
-      </section>
-      <section class="tv-sec">
-        <h3>tv show</h3>
-        <div class="tv-cd-grp">
-          <div class="crd">
-            <img
-              src="https://echl.imgix.net/production/wic/post/2567/featured_image/31b435b4-1367-48a0-9ad7-f24c853ad5d3/the-chosen-2560.jpg?ar=16%3A9&auto=compress%2Cformat&crop=faces%2Ccenter&fit=crop&w=1200&s=765565058cceed7dd22de2b80c997a76"
-              alt=""
-              width="100%"
-              height="100%"
-            />
-          </div>
-          <div class="crd">
-            <img
-              src="https://cdn.grove.wgbh.org/dims4/default/151f56a/2147483647/strip/true/crop/1920x1080+0+0/resize/1200x675!/quality/70/?url=https%3A%2F%2Fimage.pbs.org%2Fcontentchannels%2Fu3UBQZD-show-mezzanine16x9-O1N7z2G.jpg"
-              alt=""
-              width="100%"
-              height="100%"
-            />
-          </div>
-          <div class="crd">
-            <img
-              src="https://img4.hulu.com/user/v3/artwork/c915fcae-5865-4e6d-ae08-6c73cb2b11ac?base_image_bucket_name=image_manager&base_image=b5e89a93-836c-4630-a47b-cae386ed2ff5&size=600x338&format=webp"
-              alt=""
-              width="100%"
-              height="100%"
-            />
-          </div>
-          <div class="crd">
-            <img
-              src="https://kcet.brightspotcdn.com/dims4/default/51fc79a/2147483647/strip/true/crop/1920x1080+0+0/resize/1200x675!/quality/90/?url=https%3A%2F%2Fimage.pbs.org%2Fcontentchannels%2F40i09jN-show-mezzanine16x9-s1MX7fI.jpg"
-              alt=""
-              width="100%"
-              height="100%"
-            />
-          </div>
+      </div>
+    </section>
+    <section class="recom">
+      <h3>recommendations</h3>
+      <div class="recom-cd-grp">
+        <div class="crd">
+          <img
+            src="https://i.ytimg.com/vi/QflfPttxclE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDAIf_PMwtdvNr9vJ70ivkmAS_YAA"
+            alt="" width="100%" height="100%" />
         </div>
-      </section>
-    </main>
-    <footer>
+        <div class="crd">
+          <img
+            src="https://cdn1.edgedatg.com/aws/v2/abc/ABCUpdates/blog/4706970/400cd0eeae9e3ae855556002cb8706f0/1600x900-Q90_400cd0eeae9e3ae855556002cb8706f0.jpg"
+            alt="" height="100%" width="100%" />
+        </div>
+        <div class="crd">
+          <img src="https://images.mid-day.com/images/images/2026/jun/alphaposter-1781706828144_d.png" alt=""
+            width="100%" />
+        </div>
+        <div class="crd">
+          <img src="https://img.youtube.com/vi/eRMXfu_eJb8/0.jpg" alt="" width="100%" height="90  " />
+        </div>
+      </div>
+    </section>
+    <section class="movie-sec">
+      <h3>movies</h3>
+      <div class="movie-cd-grp">
+        <div class="crd">
+          <img src="https://www.deccanchronicle.com/h-upload/2026/06/19/2053569-spider-man-brand-new-day.webp" alt=""
+            width="100%" height="100%" />
+        </div>
+        <div class="crd">
+          <img
+            src="https://cdn.bongo-solutions.com/919f93a7-400e-4149-a70d-204beb589074/content/875287da-9879-4c98-a80e-e45844af2f6a/b8a75a84-db9c-410c-b144-6fac455faa8b.jpg?width=600"
+            alt="" width="100%" height="100%" />
+        </div>
+        <div class="crd">
+          <img
+            src="https://www.thescarboroughnews.co.uk/webimg/b25lY21zOmZmNTI4ZjBkLTlmZjUtNGUyMS05ZTJkLTZjZGQ1ZWZmZGE0OTo4NTA3OWQxNS0zN2JiLTQ5ODYtYmVjMi1lMTI5YWI4NTNkOWE=.jpg?crop=3:2,smart&trim=&width=640&quality=65"
+            alt="" width="100%" height="100%" />
+        </div>
+        <div class="crd">
+          <img
+            src="https://cdn.bongo-solutions.com/919f93a7-400e-4149-a70d-204beb589074/content/4d1b49d8-9088-4b94-ad0c-ca06e64e86de/2d844801-534f-459f-9b6c-b29edd11fe8e.jpg?width=600"
+            alt="" width="100%" height="100%" />
+        </div>
+      </div>
+    </section>
+    <section class="tv-sec">
+      <h3>tv show</h3>
+      <div class="tv-cd-grp">
+        <div class="crd">
+          <img
+            src="https://echl.imgix.net/production/wic/post/2567/featured_image/31b435b4-1367-48a0-9ad7-f24c853ad5d3/the-chosen-2560.jpg?ar=16%3A9&auto=compress%2Cformat&crop=faces%2Ccenter&fit=crop&w=1200&s=765565058cceed7dd22de2b80c997a76"
+            alt="" width="100%" height="100%" />
+        </div>
+        <div class="crd">
+          <img
+            src="https://cdn.grove.wgbh.org/dims4/default/151f56a/2147483647/strip/true/crop/1920x1080+0+0/resize/1200x675!/quality/70/?url=https%3A%2F%2Fimage.pbs.org%2Fcontentchannels%2Fu3UBQZD-show-mezzanine16x9-O1N7z2G.jpg"
+            alt="" width="100%" height="100%" />
+        </div>
+        <div class="crd">
+          <img
+            src="https://img4.hulu.com/user/v3/artwork/c915fcae-5865-4e6d-ae08-6c73cb2b11ac?base_image_bucket_name=image_manager&base_image=b5e89a93-836c-4630-a47b-cae386ed2ff5&size=600x338&format=webp"
+            alt="" width="100%" height="100%" />
+        </div>
+        <div class="crd">
+          <img
+            src="https://kcet.brightspotcdn.com/dims4/default/51fc79a/2147483647/strip/true/crop/1920x1080+0+0/resize/1200x675!/quality/90/?url=https%3A%2F%2Fimage.pbs.org%2Fcontentchannels%2F40i09jN-show-mezzanine16x9-s1MX7fI.jpg"
+            alt="" width="100%" height="100%" />
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-main">
       <div class="home">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          x="0px"
-          y="0px"
-          width="30"
-          height="30"
-          viewBox="0,0,256,256"
-        >
-          <g
-            fill="#ffffff"
-            fill-rule="nonzero"
-            stroke="none"
-            stroke-width="1"
-            stroke-linecap="butt"
-            stroke-linejoin="miter"
-            stroke-miterlimit="10"
-            stroke-dasharray=""
-            stroke-dashoffset="0"
-            font-family="none"
-            font-weight="none"
-            font-size="none"
-            text-anchor="none"
-            style="mix-blend-mode: normal"
-          >
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256">
+          <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+            stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none"
+            font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
             <g transform="scale(10.66667,10.66667)">
               <path
-                d="M12,2c-0.26712,0.00003 -0.52312,0.10694 -0.71094,0.29688l-10.08594,8.80078c-0.12774,0.09426 -0.20313,0.24359 -0.20312,0.40234c0,0.27614 0.22386,0.5 0.5,0.5h2.5v8c0,0.552 0.448,1 1,1h4c0.552,0 1,-0.448 1,-1v-6h4v6c0,0.552 0.448,1 1,1h4c0.552,0 1,-0.448 1,-1v-8h2.5c0.27614,0 0.5,-0.22386 0.5,-0.5c0.00001,-0.15876 -0.07538,-0.30808 -0.20312,-0.40234l-10.08008,-8.79492c-0.00194,-0.00196 -0.0039,-0.00391 -0.00586,-0.00586c-0.18782,-0.18994 -0.44382,-0.29684 -0.71094,-0.29687z"
-              ></path>
+                d="M12,2c-0.26712,0.00003 -0.52312,0.10694 -0.71094,0.29688l-10.08594,8.80078c-0.12774,0.09426 -0.20313,0.24359 -0.20312,0.40234c0,0.27614 0.22386,0.5 0.5,0.5h2.5v8c0,0.552 0.448,1 1,1h4c0.552,0 1,-0.448 1,-1v-6h4v6c0,0.552 0.448,1 1,1h4c0.552,0 1,-0.448 1,-1v-8h2.5c0.27614,0 0.5,-0.22386 0.5,-0.5c0.00001,-0.15876 -0.07538,-0.30808 -0.20312,-0.40234l-10.08008,-8.79492c-0.00194,-0.00196 -0.0039,-0.00391 -0.00586,-0.00586c-0.18782,-0.18994 -0.44382,-0.29684 -0.71094,-0.29687z">
+              </path>
             </g>
           </g>
         </svg>
       </div>
       <div class="dl">
-        <svg
-          width="30"
-          height="30"
-          viewBox="0 0 24 24"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          stroke="#ffffff"
-        >
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
           <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-          <g
-            id="SVGRepo_tracerCarrier"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          ></g>
+          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
           <g id="SVGRepo_iconCarrier">
             <g id="Interface / Download">
-              <path
-                id="Vector"
-                d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12"
-                stroke="#ffffff"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></path>
+              <path id="Vector" d="M6 21H18M12 3V17M12 17L17 12M12 17L7 12" stroke="#ffffff" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round"></path>
             </g>
           </g>
         </svg>
       </div>
       <div class="profile">
-        <svg
-          width="30"
-          height="30"
-          fill="#ffffff"
-          viewBox="0 0 32 32"
-          xmlns="http://www.w3.org/2000/svg"
-          stroke="#ffffff"
-        >
+        <svg width="30" height="30" fill="#ffffff" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"
+          stroke="#ffffff">
           <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-          <g
-            id="SVGRepo_tracerCarrier"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          ></g>
+          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
           <g id="SVGRepo_iconCarrier">
             <title></title>
             <g id="about">
+              <path d="M16,16A7,7,0,1,0,9,9,7,7,0,0,0,16,16ZM16,4a5,5,0,1,1-5,5A5,5,0,0,1,16,4Z"></path>
               <path
-                d="M16,16A7,7,0,1,0,9,9,7,7,0,0,0,16,16ZM16,4a5,5,0,1,1-5,5A5,5,0,0,1,16,4Z"
-              ></path>
-              <path
-                d="M17,18H15A11,11,0,0,0,4,29a1,1,0,0,0,1,1H27a1,1,0,0,0,1-1A11,11,0,0,0,17,18ZM6.06,28A9,9,0,0,1,15,20h2a9,9,0,0,1,8.94,8Z"
-              ></path>
+                d="M17,18H15A11,11,0,0,0,4,29a1,1,0,0,0,1,1H27a1,1,0,0,0,1-1A11,11,0,0,0,17,18ZM6.06,28A9,9,0,0,1,15,20h2a9,9,0,0,1,8.94,8Z">
+              </path>
             </g>
           </g>
         </svg>
       </div>
-    </footer>
-    <script src="script.js"></script>
-  </body>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
 </html>
