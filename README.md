@@ -7,15 +7,14 @@ PG Stream is a front-end web development learning project. This project is curre
 This project is being built to practice HTML and CSS skills by creating a modern user interface for a movie and TV show streaming platform.
 
 ### Current Features
-- Responsive layout designed with a dark theme aesthetic.
+- Fully responsive layout designed with a sleek dark theme aesthetic.
+- Glassmorphism UI effects with backdrop blurs on navigation and footer elements.
 - Top navigation bar with a search icon.
 - Categorized media sections including:
   - Featured banner with "Watch Now" and "Watch Later" actions.
-  - Latest
-  - Recommendations
-  - Movies
-  - TV Shows
-- Sticky bottom navigation footer (Home, Download, Profile).
+  - Latest, Recommendations, Movies, and TV Shows sections.
+- Adaptive grid system that switches to a 3-column layout on desktop screens.
+- Bottom navigation footer that transforms into a sleek, centered floating glass bar on larger screens.
 
 ### Technologies Used
 - HTML5
@@ -23,7 +22,6 @@ This project is being built to practice HTML and CSS skills by creating a modern
 - Google Fonts (Roboto Condensed)
 
 ### Upcoming Features
-- Desktop responsive layout
 - Video player page
 - User profile page
 - Downloads section
