@@ -14,10 +14,13 @@ body {
   background-color: #0b0f17;
   color: #ffffff;
   font-family: "Roboto Condensed", sans-serif;
+  padding-bottom: 5rem;
 }
 
 main {
   padding: 1rem;
+  padding-bottom: 6rem;
+
 }
 
 header {
@@ -144,6 +147,8 @@ nav {
   padding-right: 2rem;
   position: fixed;
   bottom: 0;
+
+
 }
 
 
@@ -197,10 +202,58 @@ nav {
   align-items: center;
 }
 
+.download-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
 
+.pfp {
+  margin-top: 4rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.pfp svg {
+  height: 8rem;
+  width: 8rem;
 
+}
 
+.name {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.subscribe {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.subscribe svg {
+  height: 3rem;
+  width: 3rem;
+}
+
+.logout {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(255, 0, 0, 0.1);
+  border: solid red 1px;
+  border-radius: 2px;
+}
 
 
 
@@ -213,8 +266,14 @@ nav {
 /*  */
 
 @media (min-width:1020px) {
+  body {
+    padding-bottom: 6rem;
+  }
+
+
   main {
     padding: 3rem;
+    padding-bottom: 6rem;
   }
 
   header {
@@ -260,5 +319,28 @@ nav {
   .search-box {
     height: 70%;
     width: 40%;
+  }
+
+  .lgot-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pfp {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10rem;
+  }
+
+  .logout {
+
+
+    width: 70%;
+
   }
 }
